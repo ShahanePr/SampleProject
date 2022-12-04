@@ -8,7 +8,7 @@ public class Saurabh {
 System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32 (2)\\chromedriver.exe");
 WebDriver driver =new ChromeDriver();
 driver.get("https://www.selenium.dev/downloads/");
-System.out.println(driver.getTitle());
+System.out.print(driver.getTitle());
 	}
 
 }
